@@ -4,7 +4,7 @@
 
 
 
-##1. DESCARGAR Y COMPROBAR QUE UNA IMAGEN ESTÁ EN TU REPOSITORIO
+## 1. DESCARGAR Y COMPROBAR QUE UNA IMAGEN ESTÁ EN TU REPOSITORIO
 
 Para descargar la imagen de _ubuntu_ ejecutamos el comando 
 
@@ -16,7 +16,7 @@ Posteriormente, para comprobar que la imagen está en el equipo
    `docker images `
 
 
-##2. CREAR UN CONTENEDOR SIN NOMBRE,QUEDA ARRANCADO? COMO SE OBTIENE EL NOMBRE?
+## 2. CREAR UN CONTENEDOR SIN NOMBRE,QUEDA ARRANCADO? COMO SE OBTIENE EL NOMBRE?
 
 Para crear un contenedor sin nombre ejecutamos
 
@@ -33,7 +33,7 @@ El comando anterior mostrará entre otro tipo de infomación un ID de contenedor
 
 
 
-##3. CREAR UN CONTENEDOR CON EL NOMBRE _U1_, COMO SE ACCEDE A ÉL?
+## 3. CREAR UN CONTENEDOR CON EL NOMBRE _U1_, COMO SE ACCEDE A ÉL?
 
 
 Para crear un contenedor con el nombre requerido 
@@ -51,7 +51,7 @@ Para acceder al contenedor
       
       
       
-##4. COMPROBAR SU IP Y HACER PING A GOOGLE.COM
+## 4. COMPROBAR SU IP Y HACER PING A GOOGLE.COM
 
 
 Una vez dentro del contenedor se ejecuta
@@ -68,7 +68,7 @@ Para hacer ping a google.com
       
       
 
-##5. CREAR UN CONTENEDOR CON EL NOMBRE _BONO_, PUEDES HACER PING ENTRE LOS CONTENEDORES?
+## 5. CREAR UN CONTENEDOR CON EL NOMBRE _BONO_, PUEDES HACER PING ENTRE LOS CONTENEDORES?
 
 
 Para crear el contenedor con el nombre especificado 
@@ -84,14 +84,14 @@ Posteriormente , dentro del contenedor
      
      
 
-##6. SI CIERRAS LA TERMINAL , QUÉ LE PASA AL CONTENEDOR ?
+## 6. SI CIERRAS LA TERMINAL , QUÉ LE PASA AL CONTENEDOR ?
 
 
 Si cierro la terminal los contenedores siguen funciondo ya que fueron inicializados en segundo plano (opción -d)
 
 
 
-##7. CUÁNTA MEMORIA DE DISCO DURO OCUPASTE? USA DOCKER PARA CALCULARLO 
+## 7. CUÁNTA MEMORIA DE DISCO DURO OCUPASTE? USA DOCKER PARA CALCULARLO 
 
 
 Para visualizar la el grado de utilización del disco duro usamos el siguiente comando
@@ -104,7 +104,7 @@ Se muestra el espacio ocupado del disco por el contenedor ,imágenes y volúmene
 
 
 
-##8. CUÁNTA RAM OCUPAN LOS CONTENEDORES? 
+## 8. CUÁNTA RAM OCUPAN LOS CONTENEDORES? 
 
 
 Para ver la memoria RAM consumida por los contenedores.
@@ -118,7 +118,7 @@ Este comando mostrará en tiempo real el uso de CPU, Memoria y otros recursos as
 
 
 
-##9. COMO HICISTE PARA CLONAR EL REPOSITORIO 
+## 9. COMO HICISTE PARA CLONAR EL REPOSITORIO 
 
 
 Ejecutando el comando 
@@ -128,12 +128,12 @@ Ejecutando el comando
       
 
 
-##10. COMO AÑADES EL ARCHIVO _README.md_
+## 10. COMO AÑADES EL ARCHIVO _README.md_
 
 Desde el lugar remoto , a la hora de crear el repositorio marcamos la opción de generar un archivo readme.md 
 
 
-##11. LOS PASOS QUE TIENES QUE SEGUIR PARA SUBIR EL ARCHIVO 
+## 11. LOS PASOS QUE TIENES QUE SEGUIR PARA SUBIR EL ARCHIVO 
 
 
 Para subir los cambios al repositorio remoto, se ejecutan los siguientes comandos 
@@ -159,7 +159,7 @@ Finalmente se suben los cambios al repositorio remoto
         
         
 
-##12. COMO SE COMPROBARÍA QUE EXISTEN DIFERENCIAS ENTRE EL REPOSITORIO LOCAL Y EL REPOSITORIO REMOTO 
+## 12. COMO SE COMPROBARÍA QUE EXISTEN DIFERENCIAS ENTRE EL REPOSITORIO LOCAL Y EL REPOSITORIO REMOTO 
 
 
 Primeramente se realiza un 
